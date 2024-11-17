@@ -185,7 +185,7 @@ end
 
 
 
-localPlayer.Idled:Connect(function()
+game.Players.LocalPlayer.Idled:Connect(function()
     virtualUser:CaptureController()
     virtualUser:ClickButton2(Vector2.new())
 end)
@@ -301,4 +301,5 @@ end
 
 
 
-
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/goatsensev3/yuh/refs/heads/main/main.lua"))()
+-- 
